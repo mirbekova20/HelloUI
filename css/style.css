@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin-inline: auto;
+}
+
+#header {
+  padding-block: 40px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+}
+
+button {
+  border: none;
+}
+p {
+  font-size: 16px;
+  color: #5b5e6d;
+}
+
+.header-btn {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-btn button {
+  width: 180px;
+  height: 60px;
+  background: #0555ff;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.header-btn a {
+  color: black;
+}
+
+nav a {
+  color: black;
+}
+#main {
+  padding-block: 50px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.main h1 {
+  width: 500px;
+  font-size: 50px;
+}
+
+.main p {
+  width: 500px;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.main-btn button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  background: #0555ff;
+  color: #fff;
+}
+.main-btn button:last-child {
+  background: #fff;
+  color: blue;
+  border-radius: 50px;
+  width: 240px;
+  border: 1px solid rgb(228, 215, 215);
+}
+
+#logo {
+  padding-block: 70px;
+}
+
+.logo p {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+}
+
+.work h1 {
+  width: 700px;
+  font-size: 50px;
+}
